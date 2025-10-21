@@ -44,7 +44,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center gradient-hero px-6 pt-16">
         <div className="mx-auto max-w-7xl text-center">
           <h1 className="text-5xl font-bold leading-tight text-white md:text-7xl lg:text-8xl mb-6">
-            Hi, I'm{' '}
+            Hi, I&apos;m{' '}
             <span className="typewriter-text text-[--color-bun-cyan]" ref={typewriterRef}></span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-balance text-lg text-[--color-bun-text-muted] md:text-xl">
@@ -306,9 +306,9 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-24 px-6 border-t border-white/10">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">Let's Work Together</h2>
+          <h2 className="text-4xl font-bold text-white mb-6">Let&apos;s Work Together</h2>
           <p className="text-lg text-[--color-bun-text-muted] mb-12">
-            Have a project in mind? Let's connect and build something amazing together.
+            Have a project in mind? Let&apos;s connect and build something amazing together.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
